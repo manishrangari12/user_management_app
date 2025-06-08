@@ -1,0 +1,1 @@
+{"firestore":{"database":"(default)","location":"africa-south1","rules":"firestore.rules","indexes":"firestore.indexes.json"},"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"user-profile-management-app","configurations":{"web":"1:240853229741:web:9b40c1795de92332592624","windows":"1:240853229741:web:7a66b5a4218a3e3b592624"}}}}}}
