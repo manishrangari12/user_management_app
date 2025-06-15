@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "240853229741",
+    "project_id": "user-profile-management-app",
+    "storage_bucket": "user-profile-management-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240853229741:android:56b084cf701c246a592624",
+        "android_client_info": {
+          "package_name": "com.example.usermanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9xBOJ4NsXr6TRxpTSLYM-kqJocLk5-mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240853229741:android:bd62279a82f2f058592624",
+        "android_client_info": {
+          "package_name": "com.manish.usermanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9xBOJ4NsXr6TRxpTSLYM-kqJocLk5-mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

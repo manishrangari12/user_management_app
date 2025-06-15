@@ -21,20 +21,11 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for android - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         return windows;
       case TargetPlatform.linux:
@@ -68,4 +59,31 @@ class DefaultFirebaseOptions {
     storageBucket: 'user-profile-management-app.firebasestorage.app',
     measurementId: 'G-X2N17S7TJJ',
   );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyAWMbctzyfnTrJcLp6fKlSSlsQmE5iv-oo',
+    appId: '1:240853229741:ios:d9da93516b803414592624',
+    messagingSenderId: '240853229741',
+    projectId: 'user-profile-management-app',
+    storageBucket: 'user-profile-management-app.firebasestorage.app',
+    iosBundleId: 'com.example.usermanagement',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyAWMbctzyfnTrJcLp6fKlSSlsQmE5iv-oo',
+    appId: '1:240853229741:ios:d9da93516b803414592624',
+    messagingSenderId: '240853229741',
+    projectId: 'user-profile-management-app',
+    storageBucket: 'user-profile-management-app.firebasestorage.app',
+    iosBundleId: 'com.example.usermanagement',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyC9xBOJ4NsXr6TRxpTSLYM-kqJocLk5-mk',
+    appId: '1:240853229741:android:56b084cf701c246a592624',
+    messagingSenderId: '240853229741',
+    projectId: 'user-profile-management-app',
+    storageBucket: 'user-profile-management-app.firebasestorage.app',
+  );
+
 }
